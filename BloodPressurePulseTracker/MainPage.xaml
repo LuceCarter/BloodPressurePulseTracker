@@ -1,0 +1,15 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BloodPressurePulseTracker.MainPage"
+             Title="Blood Pressure Pulse Tracker"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <ScrollView>
+        <Label Text="Blood Pressure Pulse Tracker" 
+               TextColor="{DynamicResource PrimaryColor}"
+               HorizontalOptions="Center"
+               FontSize="Medium"
+               SemanticProperties.Description="Blood Pressure Pulse Tracker"/>
+    </ScrollView>
+</ContentPage>
