@@ -53,6 +53,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\bloodpressure.png" />
+	  <None Remove="Resources\Images\bloodpressuregauge.png" />
+	  <None Remove="Resources\Images\calendar.png" />
+	  <None Remove="Resources\Images\clock.png" />
+	  <None Remove="Resources\Images\history.png" />
+	  <None Remove="Resources\Images\info.png" />
+	  <None Remove="Resources\Images\pulserate.png" />
+	  <None Remove="Resources\Images\trends.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Folder Include="Helpers\" />
 	  <Folder Include="Models\" />
 	</ItemGroup>

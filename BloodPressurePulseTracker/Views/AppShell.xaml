@@ -24,10 +24,10 @@
     </Shell.Resources>
 
     <TabBar Route="Main">
-        <ShellContent Title="Log" ContentTemplate="{DataTemplate views:LogReadingPage}" />
-        <ShellContent Title="Trends" ContentTemplate="{DataTemplate views:TrendsPage}" />
-        <ShellContent Title="History" ContentTemplate="{DataTemplate views:HistoryPage}" />
-        <ShellContent Title="About" ContentTemplate="{DataTemplate views:AboutPage}" />
+        <ShellContent Title="Log" Icon="bloodpressure.png" ContentTemplate="{DataTemplate views:LogReadingPage}" />
+        <ShellContent Title="Trends" Icon="trends.png" ContentTemplate="{DataTemplate views:TrendsPage}" />
+        <ShellContent Title="History" Icon="history" ContentTemplate="{DataTemplate views:HistoryPage}" />
+        <ShellContent Title="About" Icon="info.png" ContentTemplate="{DataTemplate views:AboutPage}" />
     </TabBar>
 
 </Shell>
