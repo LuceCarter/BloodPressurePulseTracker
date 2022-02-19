@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:viewmodels="clr-namespace:BloodPressurePulseTracker.ViewModels"
-             x:Class="BloodPressurePulseTracker.Views.HistoryPage"
+             x:Class="BloodPressurePulseTracker.Views.AboutPage"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
-
-    <ContentPage.BindingContext>
-        <viewmodels:HistoryPageViewModel />
-    </ContentPage.BindingContext>
-    
     <StackLayout>
         <Label Text="Welcome to .NET MAUI!"
                 VerticalOptions="CenterAndExpand" 

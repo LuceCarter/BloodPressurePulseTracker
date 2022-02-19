@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:BloodPressurePulseTracker.Views"
+             x:Class="BloodPressurePulseTracker.AppShell"            
+             BackgroundColor="White">
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="Shell.ForegroundColor" Value="White" />
+                <Setter Property="Shell.TitleColor" Value="Black" />
+                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />                
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource PrimaryColor}" />                
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="#FFA03A"/>
+                <Setter Property="Shell.NavBarIsVisible" Value="False" />
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <TabBar Route="Main">
+        <ShellContent Title="Log" ContentTemplate="{DataTemplate views:LogReadingPage}" />
+        <ShellContent Title="Trends" ContentTemplate="{DataTemplate views:TrendsPage}" />
+        <ShellContent Title="History" ContentTemplate="{DataTemplate views:HistoryPage}" />
+        <ShellContent Title="About" ContentTemplate="{DataTemplate views:AboutPage}" />
+    </TabBar>
+
+</Shell>

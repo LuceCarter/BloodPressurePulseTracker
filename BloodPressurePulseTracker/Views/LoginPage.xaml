@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodels="clr-namespace:BloodPressurePulseTracker.ViewModels"
-             x:Class="BloodPressurePulseTracker.LoginPage"
-             Title="LoginPage"
+             x:Class="BloodPressurePulseTracker.Views.LoginPage"
+             NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
 
     <ContentPage.BindingContext>

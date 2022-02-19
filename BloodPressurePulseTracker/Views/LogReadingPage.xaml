@@ -2,13 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodels="clr-namespace:BloodPressurePulseTracker.ViewModels"
-             x:Class="BloodPressurePulseTracker.LogReadingPage"
-             Title="LogReadingPage"
+             x:Class="BloodPressurePulseTracker.Views.LogReadingPage"
+             NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
 
     <ContentPage.BindingContext>
         <viewmodels:LogReadingPageViewModel />
-    </ContentPage.BindingContext>
+    </ContentPage.BindingContext>    
     
     <StackLayout>
         <Label Text="Welcome to .NET MAUI!"

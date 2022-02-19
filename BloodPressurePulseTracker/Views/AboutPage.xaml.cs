@@ -1,8 +1,8 @@
 namespace BloodPressurePulseTracker.Views;
 
-public partial class LogReadingPage : ContentPage
+public partial class AboutPage : ContentPage
 {
-	public LogReadingPage()
+	public AboutPage()
 	{
 		InitializeComponent();
 	}

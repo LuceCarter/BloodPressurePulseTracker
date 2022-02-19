@@ -1,4 +1,4 @@
-namespace BloodPressurePulseTracker;
+namespace BloodPressurePulseTracker.Views;
 
 public partial class TrendsPage : ContentPage
 {
